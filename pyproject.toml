@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "django-snacks"
+version = "0.1.0"
+description = ""
+authors = ["feras98nawafleh <feras.a.nawafleh@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.11b1"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
